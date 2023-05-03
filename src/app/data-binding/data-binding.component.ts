@@ -6,15 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./data-binding.component.css']
 })
 export class DataBindingComponent {
-  nome: String;
 
-  email: String;
+  N: any = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
   constructor(){
 
-    this.nome = "Angular";
+    for (let i=0; i < this.N.length; i++) {
 
-    this.email = "angular@angular.com";
+      let n = this.N[i];
 
+    }
   }
 }
